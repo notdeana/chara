@@ -2,12 +2,21 @@ html, body {
   margin: 0;
   padding: 0;
 }
+
 canvas {
   display: block;
 }
 
-
 .randomizerButton {
-  padding: 20px;
-  background-color: #a0c2fa;
+  padding: 10px;
+  background-color: #d6fffc;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  margin: 10px;
+  flex: 50%;
 }
